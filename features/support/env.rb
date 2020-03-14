@@ -15,4 +15,4 @@ Capybara.register_driver :selenium do |app|
  Capybara.default_driver = :selenium
  Capybara.default_max_wait_time = 40
  Capybara.page.driver.browser.manage.window.maximize
- Capybara.visit 'https://www.google.com/'
+ Capybara.visit 'http://automationpractice.com/index.php'
